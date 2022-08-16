@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        CSS Grid
+    </title>
+
+    
+</head>
+
+<style>
+
+.friend-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+
+}
+
+    .suggested-friend {
+        padding-bottom: 5px;
+        border-radius: 2px;
+        
+
+    }
+
+.cover {
+    display: inline-block;
+    width: 200px;
+}
+
+.username {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.under-pp {
+    display: inline-block;
+    margin-bottom: 0px;
+    vertical-align: top;
+    margin-left: 5px;
+}
+
+.pp {
+    display: inline-block;
+    border-radius: 50px;
+    width: 25px;
+}
+
+
+
+.relation {
+    display: inline-block;
+    font-family: Arial;
+    margin-top: 3px;
+    color: grey;
+    vertical-align: top;
+}
+
+.button {
+    border-radius: 2px;
+    border: none;
+    background-color: rgb(68, 99, 255);
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-size: 11px;
+    margin-left: 5px;
+    margin-top:0px;
+    
+}
+
+
+
+
+
+
+
+</style>
+
+<body style="padding-bottom: 1000px;">
+
+<div class="friend-grid">
+
+<div class="suggested-friend" >
+
+<div>
+    <img class="cover" src="thumbnails/facebook pic.jpg">
+</div>
+
+
+<div class="under-pp">
+    <div>
+        <p class="username">Oliver</p>
+    </div>
+
+    <div>
+        <img class="pp" src="profile pic/channel-1.jpeg">
+    
+        <p class="relation">2 mutual friends
+    </div>
+</div>
+
+<div>
+    <button class="button">Add friend</button>
+</div>
+
+
+<div class="suggested-friend" >
+
+    <div>
+        <img class="cover" src="thumbnails/facebook pic.jpg">
+    </div>
+    
+    
+    <div class="under-pp">
+        <div>
+            <p class="username">Oliver</p>
+        </div>
+    
+        <div>
+            <img class="pp" src="profile pic/channel-1.jpeg">
+        
+            <p class="relation">2 mutual friends
+        </div>
+    </div>
+    
+    <div>
+        <button class="button">Add friend</button>
+    </div>
+
+
+    <div class="suggested-friend" >
+
+        <div>
+            <img class="cover" src="thumbnails/facebook pic.jpg">
+        </div>
+        
+        
+        <div class="under-pp">
+            <div>
+                <p class="username">Oliver</p>
+            </div>
+        
+            <div>
+                <img class="pp" src="profile pic/channel-1.jpeg">
+            
+                <p class="relation">2 mutual friends
+            </div>
+        </div>
+        
+        <div>
+            <button class="button">Add friend</button>
+        </div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+</html>
